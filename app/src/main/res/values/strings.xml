@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="btn_Iniciar_Pantall">Iniciar Session</string>
+    <string name="btn_Registrar_Pantalla">Registrarse</string>
+
+    <string name="btn_Iniciar_Sesion">Iniciar Session</string>
+    <string name="btn_Registrar_Usuario">Registrarse</string>
+
+</resources>

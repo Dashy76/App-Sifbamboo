@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CA5252"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="295dp"
+        android:layout_height="214dp"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/SIFBAMBOO"
+            style="@style/Widget.AppCompat.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SIFBAMBOO"
+            android:textAlignment="center"
+            android:textColor="#121212"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="316dp"
+        android:layout_height="311dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828">
+
+        <Button
+            android:id="@+id/IniciarSesionPantallabtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="irIniciar"
+            android:text="Iniciar Sesion"
+            android:textColor="#121212"
+            android:textColorLink="#00BFA5"
+            tools:ignore="HardcodedText,SpeakableTextPresentCheck,TextContrastCheck"
+            tools:text="@string/btn_Iniciar_Sesion" />
+
+        <Button
+            android:id="@+id/RegistrarPantallabtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="irRegistrarse"
+            android:text="@string/btn_Registrar_Usuario"
+            android:textColor="@color/black"
+            tools:ignore="OnClick,SpeakableTextPresentCheck,TextContrastCheck" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
